@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <title>Assignment 1</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- three.js importmap -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://ga.jspm.io/npm:three@0.158.0/build/three.module.js",
+                "OrbitControls": "https://ga.jspm.io/npm:three@0.158.0/examples/jsm/controls/OrbitControls.js",
+                "lil-gui": "https://ga.jspm.io/npm:lil-gui@0.19.1/dist/lil-gui.esm.js"
+            }
+        }
+    </script>
+
+    <!-- three.js scene -->
+    <script src="script.js" type="module"></script>
+</head>
+<body>
+    <h1>Interactive Essay</h1>
+    <h2>Anthony Rea</h2>
+
+    <!-- part one -->
+    <section id="part-one">
+        <h2> Part 1 </h2>
+
+        <p>  In the depths of a cavern hidden beneath the earth's surface, where darkness reigned supreme and echoes whispered secrets through the stone, there lay a world untouched by the passage of time. In this subterranean realm, where stalactites dripped like icicles and the air hung heavy with the scent of damp earth, existed a peculiar collection of two-dimensional objects. 
+        <span class="clickable" id="first-change"></span></p>
+
+        <p>The cave was a labyrinth of winding tunnels and yawning chambers, each one adorned with formations sculpted by millennia of patient erosion. It was in the heart of this labyrinth that the two-dimensional objects resided, hidden away from the prying eyes of the world above.
+            <span class="clickable" id="first-change"> Among these objects </span>was a flat, square-shaped rock, its surface smooth and unblemished by the passage of time. It lay nestled amidst a bed of shimmering crystals, casting a faint glow in the darkness that surrounded it. Nearby, a triangular shard of obsidian jutted out from the cavern wall, its edges sharp and angular, gleaming ominously in the dim light. As the<span class="clickable" id="second-change"> shadows </span>danced across the cave walls, the two-dimensional objects seemed to come to life, their shapes shifting and morphing in the flickering torchlight. It was as though they existed in a world of their own, untouched by the laws of physics that governed the world above.
+
+            Among the inhabitants of this subterranean realm was a lone explorer named Lyra, a daring adventurer with a thirst for discovery. Armed with nothing but a flickering torch and a sense of curiosity, Lyra delved deeper into the cavern, her footsteps echoing off the walls as she ventured into the unknown. With each step, the cave seemed to grow darker, the air growing thick with the scent of decay. But Lyra pressed on, her heart pounding with excitement as she pushed deeper into the labyrinth. It was then that she stumbled upon the two-dimensional objects, their shapes illuminated by the flickering light of her torch. For a moment, Lyra stood transfixed by the sight before her, her eyes widening in wonder as she beheld the strange and wondrous shapes that surrounded her. There were squares and triangles, circles and polygons, each one more mesmerizing than the last.</p>
+
+        <p><span class="clickable" id="continue-reading">Continue reading</span></p>
+    </section>
+
+    <!-- part two -->
+    <section id="part-two" class="hidden">
+        <h2> Part 2 </h2>
+
+        <p>As Lyra reached out to touch one of the objects, she felt a strange sensation wash over her, as though she were being drawn into their world. It was as though<span class="clickable" id="third-change"> the objects </span>themselves were alive, pulsing with a strange energy that seemed to defy explanation. With trembling hands, Lyra reached out to touch the square-shaped rock, her fingers grazing its smooth surface. In that moment, she felt a connection unlike anything she had ever experienced before, as though she were touching a piece of eternity itself.</p>
+
+        <p>As she stood there in the darkness, surrounded by the enigmatic shapes of the two-dimensional objects, Lyra felt a sense of peace wash over her. In that moment, she knew that she had discovered something truly extraordinary a hidden world that lay beneath the surface of her own. And <span class="clickable" id="fourth-change">as she turned to leave the cavern behind</span>, her mind filled with visions of the wonders that lay hidden beneath the earth, Lyra knew that her journey was far from over. For in a world as vast and mysterious as this, there were always new horizons waiting to be explored.</p>
+
+        <p><span class="clickable" id="restart">Restart</span></p>
+    </section>
+
+    <canvas class="webgl"></canvas>
+  </body>
